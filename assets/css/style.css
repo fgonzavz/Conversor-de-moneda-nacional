@@ -1,0 +1,74 @@
+body {
+  background-color: #323639;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.contenedor {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.contenedor .contenedor-conversor {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #525d5e;
+  box-shadow: 14px 6px 2px 2px rgba(255, 255, 255, 0.35);
+}
+.contenedor .contenedor-grafico {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 14px 6px 2px 2px rgba(255, 255, 255, 0.35);
+}
+
+.contenedor-titulo {
+  margin-top: 100px;
+  border-top: 1px solid #03d7fc;
+  border-bottom: 1px solid #03d7fc;
+  margin-bottom: 100px;
+}
+
+.contenedor .contenedor-conversor input,
+.contenedor .contenedor-conversor select,
+.contenedor .contenedor-conversor button {
+  padding: 10px;
+  margin: 15px;
+}
+
+.contenedor .contenedor-conversor button {
+  background-color: #03d7fc;
+  color: #fff;
+  border: 1px solid #03d7fc;
+}
+
+.resultado {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.h3-form {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.fallido{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+}
